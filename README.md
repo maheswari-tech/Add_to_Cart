@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Add to Cart 🛒
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, modern **e-commerce product listing + shopping cart** demo built with **React**.
 
-## Available Scripts
+Live Demo: (https://add-to-cart-six-ruddy.vercel.app/)
 
-In the project directory, you can run:
+<img width="915" height="901" alt="image" src="https://github.com/user-attachments/assets/79af0b30-11fb-4517-bfa5-add079143c68" />
+  
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Browse a list of products
+- Add products to cart
+- View and manage cart items
+- Update quantities
+- Lazy Loading
+- Remove items from cart
+- See real-time total price
+- Clean, responsive user interface
+- State management (using React Context / useReducer / useState)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **React** (Create React App)
+- **JavaScript (ES6+)**
+- **CSS** 
+- **React Hooks**
+- **Vercel** (for deployment)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js ≥ 14
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
 
-### `npm run eject`
+```
+git clone https://github.com/maheswari-tech/Add_to_Cart.git
+cd Add_to_Cart
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bashnpm install
+# or
+yarn install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3.Start the development server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Bashnpm start
+# or
+yarn start
+App will open at → http://localhost:3000
+Available Scripts
+Bash# Start development server
+npm start
 
-## Learn More
+# Run tests (if you added any)
+npm test
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Build for production
+npm run build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Eject from Create React App (one-way operation)
+npm run eject
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🗂 Project Structure
+textAdd_to_Cart/
+├── public/                 # Static files
+│   └── index.html
+├── src/
+│   ├── components/         # Reusable components (ProductCard, Cart, Navbar…)
+│   ├── context/            # Cart context / state management
+│   ├── data/               # products.json 
+│   ├── App.js
+│   ├── index.js
+│   └── styles/             # CSS  files
+├── package.json
+└── README.md
